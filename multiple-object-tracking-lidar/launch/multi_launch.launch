@@ -1,0 +1,8 @@
+
+<launch>
+
+<node pkg="multiple-object-tracking-lidar" type="main" name="main" output="screen"/>
+<node pkg="multiple-object-tracking-lidar" type="multi_pub_node" name="multi_pub_node" output="screen"/>
+
+
+</launch>
